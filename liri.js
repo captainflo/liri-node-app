@@ -32,7 +32,7 @@ switch(process.argv[2]){
             var value = `Artist: ${artist} \nVenue: ${place.venue.name}\nPlace: ${city}\nDate: ${date}\n\n`;
             addText(value);
         });
-        })
+    })
     break;
 
     case "spotify-this-song":
@@ -58,8 +58,6 @@ switch(process.argv[2]){
        
       });
     }
-    
-
     break;
 
     case "movie-this":
