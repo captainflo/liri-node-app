@@ -11,13 +11,13 @@ LIRI is like iPhone's SIRI. However, while SIRI is a Speech Interpretation and R
 ``` npm install ```
 
 ## This will search the Bands in Town Artist Events API 
-```node liris.js concert-this <YourArtist>```
+```node liri.js concert-this <YourArtist>```
 
 ## This will show the following information about the song
-```node liris.js spotify-this-song <YourSound>```
+```node liri.js spotify-this-song <YourSound>```
 
 ## This will output the following information about your Movies
-```node liris.js movie-this <YourMovies>```
+```node liri.js movie-this <YourMovies>```
 
 ## Using the `fs` Node package, LIRI will take the text inside of random.txt and then use it to call one of LIRI's commands
-```node liris.js do-what-it-says```
+```node liri.js do-what-it-says```
